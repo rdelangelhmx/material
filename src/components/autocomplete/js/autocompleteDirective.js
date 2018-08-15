@@ -447,7 +447,6 @@ function MdAutocomplete ($$mdSvgRegistry) {
               ng-blur="$mdAutocompleteCtrl.blur($event)"\
               ng-focus="$mdAutocompleteCtrl.focus($event)"\
               placeholder="{{placeholder}}"\
-              aria-label="{{placeholder}}"\
               aria-autocomplete="list"\
               role="combobox"\
               aria-haspopup="true"\
